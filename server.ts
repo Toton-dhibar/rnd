@@ -1,7 +1,7 @@
 import { serve } from "https://deno.land/std@0.224.0/http/server.ts";
 
 const UUID = Deno.env.get("UUID") || "f9a1ba12-7187-4b25-a5d5-7bafd82ffb4d";
-const DOMAIN = Deno.env.get("DOMAIN") || "your-app.onrender.com";
+const DOMAIN = Deno.env.get("DOMAIN") || "rnd-q5ot.onrender.com";
 const WS_PATH = Deno.env.get("WS_PATH") || "ws";
 const SUB_PATH = Deno.env.get("SUB_PATH") || "sub";
 const PORT = parseInt(Deno.env.get("PORT") || "10000");
